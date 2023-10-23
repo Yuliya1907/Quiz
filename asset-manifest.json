@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Yuliya1907/Quiz.git/static/css/main.ca2f3245.css",
+    "main.js": "/Yuliya1907/Quiz.git/static/js/main.2d3d5fd0.js",
+    "index.html": "/Yuliya1907/Quiz.git/index.html",
+    "main.ca2f3245.css.map": "/Yuliya1907/Quiz.git/static/css/main.ca2f3245.css.map",
+    "main.2d3d5fd0.js.map": "/Yuliya1907/Quiz.git/static/js/main.2d3d5fd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca2f3245.css",
+    "static/js/main.2d3d5fd0.js"
+  ]
+}
