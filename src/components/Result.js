@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import '../styles/Result.css';
 import { Link } from 'react-router-dom';
 import ResultTable from './ResultTable';
@@ -11,10 +11,6 @@ import { usePublishResult } from '../hooks/setResult';
 export default function Result() {
     const dispatch = useDispatch();
     const { questions: { queue, answers}, result : {result, userId}} = useSelector(state => state);
-
-    useEffect(() => {
-        console.log(result)
-    })
 
     const totalPoints = queue.length * 10;
     const attempts = attempts_Number(result);

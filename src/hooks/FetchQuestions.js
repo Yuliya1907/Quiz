@@ -14,7 +14,7 @@ export const useFetchQuestion = () => {
 
                 if(questions.length > 0) {
                     setGetData(prev => ({...prev, isLoading : false}));
-                    setGetData(prev => ({...prev, apiData : { questions, answers }}));
+                    setGetData(prev => ({...prev, apiData :  questions }));
 
                     dispatch(Action.startExamAction({question : questions, answers}))
                 } else {
